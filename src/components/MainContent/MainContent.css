@@ -1,0 +1,13 @@
+.mainContent_repository{
+    display: flex;
+    
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px;
+}
+.separator{
+    border: 1px solid #84868a;
+}
+.mainContent_name{
+    margin-top: 10px;
+}

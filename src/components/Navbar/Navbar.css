@@ -1,0 +1,11 @@
+button{
+    border: none;
+    justify-content: center;
+    margin: 10px;
+    background: none;
+    border: none;
+}
+.button_navbar{
+    display: flex;
+    margin-left: 5px;
+}
