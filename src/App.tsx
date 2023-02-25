@@ -2,7 +2,6 @@ import React from 'react';
 
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import Searchbar from './components/Searchbar/Searchbar';
 import AvatarImg from "./components/AvatarImg/Avatar"
 import MainContent from './components/MainContent/MainContent';
 function App() {
@@ -14,8 +13,9 @@ function App() {
     <AvatarImg />
     </div>
     <div className='second_part'>
+      <div className='second_part_navbar'>
      <Navbar/>
-    <Searchbar/>
+     </div>
     <MainContent/>
     </div>
   

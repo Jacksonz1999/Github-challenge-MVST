@@ -13,9 +13,6 @@ const Avatar = () => {
 
     getData();
   }, []);
-/*   console.log(apiGithub());
-
-  console.log(data); */
 
   return (
     <>
@@ -25,7 +22,7 @@ const Avatar = () => {
         </div>
 
         <div>
-          <img className="image_github" src={data.avatar_url} alt="{prop.name}"></img>
+          <img className="image_github" src={data.avatar_url} alt=""></img>
         </div>
 
         <div>
@@ -33,7 +30,7 @@ const Avatar = () => {
           <h1>{data.name}</h1>
           </div>
           <div className="firstPart_login">
-          <h3>{data.login}</h3>
+          <h4>@{data.login}</h4>
           </div>
           <div className="firstPart_description">
             <p>{data.bio}</p>
@@ -43,10 +40,10 @@ const Avatar = () => {
             </div>
             <div className ="firstPart_follow">
           <div className="firstPart_followers">
-            <p>{data.followers} followers</p>
+            <p><strong>{data.followers}</strong> followers</p>
           </div>
           <div className="firstPart_following">
-            <p>{data.following} following</p>
+            <p><strong>{data.following} </strong> following</p>
           </div>
           </div>
         </div>
