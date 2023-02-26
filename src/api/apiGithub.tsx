@@ -10,6 +10,7 @@ interface User {
 }
 
 export function apiGithub(): Promise<User> {
+  
   const token = process.env.REACT_APP_GITHUB_TOKEN;
   const url = `${process.env.REACT_APP_GITHUB_API_URL}/users/${process.env.REACT_APP_GITHUB_USER}`;
   
