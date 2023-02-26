@@ -10,9 +10,9 @@ interface User {
 }
 
 export function apiGithub(): Promise<User> {
-  const username = "Jacksonz1999";
-  const token = "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";
-  const url = `https://api.github.com/users/${username}`;
+  const token = process.env.REACT_APP_GITHUB_TOKEN;
+  const url = `${process.env.REACT_APP_GITHUB_API_URL}/users/${process.env.REACT_APP_GITHUB_USER}`;
+  
 
   return axios
     .get(url, {
