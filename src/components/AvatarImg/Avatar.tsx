@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Avatar.css";
 import { apiGithub } from "../../api/apiGithub";
 import ImageGithub from "../../assets/github_icon/GitHub_Logo.png";
+// make a request to the GitHub API and update its internal state with the data received.
 const Avatar = () => {
   const [data, setData] = useState({} as any);
 
@@ -13,7 +14,7 @@ const Avatar = () => {
 
     getData();
   }, []);
-
+// return the JSX that will be rendered to the page.
   return (
     <>
       <div className="allFirstPart">

@@ -1,9 +1,10 @@
-import React from "react";
+
 import "./Navbar.css";
 import firstImg from "../../assets/navbar_icon/first.png";
 import secondImg from "../../assets/navbar_icon/second.png";
 import thirdImg from "../../assets/navbar_icon/third.png";
 import fourthImg from "../../assets/navbar_icon/fourth.png";
+// function Navbar with the buttons
 const Navbar = () => {
   return (
     <>

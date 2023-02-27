@@ -1,5 +1,6 @@
+/* Import axios */
 import axios from "axios";
-
+// We export the interface RepositoryGithub
 interface RepositoryGithub {
   name: string;
   description: string;
@@ -7,7 +8,7 @@ interface RepositoryGithub {
   url: string;
   stars: number;
 }
-
+// We export the function apiGithubRepo
 export async function apiGithubRepo(
     username: string
 ): Promise<RepositoryGithub[]> {

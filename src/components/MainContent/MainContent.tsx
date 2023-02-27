@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 import "./MainContent.css";
 import { apiGithubRepo } from "../../api/apiGithubRepo";
-
+// interface Repository 
 interface Repository {
   name: string;
   description: string;
   language: string;
   stars: number;
 }
-
+// function MainContent with hooks
 const MainContent = () => {
   const [search, setSearch] = React.useState("");
   const [data, setData] = useState<Repository[]>([]);
@@ -24,11 +24,11 @@ const MainContent = () => {
 
     getData();
   }, []);
-
+// function filterData 
   const filteredData = data.filter((repository) =>
     repository.name.toLowerCase().includes(search.toLowerCase())
   );
-
+//return the JSX that will be rendered to the page.
   return (
     <>
       <div className="searchbar">
@@ -68,7 +68,7 @@ const MainContent = () => {
           <option value="all">Go</option>
         </select>
       </div>
-
+        
       <div className="mainContent_repository">
         {filteredData.length === 0 ? (
           <p>No results found.</p>

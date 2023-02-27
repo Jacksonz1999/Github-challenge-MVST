@@ -3,7 +3,7 @@ import secondImg from "../../assets/navbar_icon/second.png";
 import "./Searchbar.css";
 
 
-
+// function Searchbar with the input and select
 const Searchbar = () => {
   const [search, setSearch] = React.useState("");
   return (
