@@ -1,43 +1,81 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# GitHub Repositories With Search Functionality
 
-In the project directory, you can run:
+Display the repositories and allow the user to filter through the repositories by name using a search bar. 
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Requirements
+- The application must be written using React.
+- Use typescript.
+- You are required to use git for versioning.
+- Feel free to use any additional plugin/module to help you get the task done more effectively.
+- Google Chrome is the testing browser
+## Extra credits
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Things that are not mandatory, but we would like to see:
 
-### `npm test`
+- +1 if you add storybook and divide the components
+- +1 if you write tests
+- +1 if deploy it somewhere (like [Netlify](https://www.netlify.com/) or [Heroku](https://www.heroku.com/))
+- +1 If your [code is documented](https://google.github.io/styleguide/jsguide.html#jsdoc)
+- +1 If you’re up for the challenge, use the [v4 API](https://docs.github.com/en/graphql), which is built using GraphQL.
+- +1 If you write a README that includes
+    - A short description about the project
+    - Instructions on how to run it
+    - Instructions on how to run the test suite
+    - Future improvements
+    - Your feedback about this exercise
+## Authors
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [@Jacksonz1999](https://www.github.com/Jacksonz1999)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deployment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To deploy this project run
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  npm run deploy
+```
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Install "my-project" with npm or yarn
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+  npm/yarn install "my-project"
+  cd "my-project"
+```
+    
+## Future improvements
+
+* **Add new features**
+Adding new features that will increase the functionality of  project and make it more useful for users.
+
+* **Improve performances**
+Optimize the performance of the project to make it run faster and more efficiently.
+
+* **Refactor code**
+Look for areas where I can simplify or improve the structure of your code to make it more maintainable and easier to work with.
+* **Improve documentation**
+Make sure my documentation is clear, concise, and up-to-date. Consider adding more examples and use cases to help users understand how to use your project.
+* **Implement security improvements**
+Look for ways to improve the security , such as implementing better encryption or authentication mechanisms.
+## My feedback about this exercise
+
+It was the first project I worked on with TypeScript, it was a challenge for me. 
+
+I had to look at the resources as quickly as possible because I found out that I was selected a day later.
+
+But still, I learned a lot about the GitHub API, TypeScript, and also the Storybook which I had never touched before.
+
+I also learned that you have to document all your code, which I didn't do much of before.
+
+Finally, I want to thank the MVST team for giving me this opportunity to do this challenge, I really appreciate it.
+
 
 ## Learn More
 
